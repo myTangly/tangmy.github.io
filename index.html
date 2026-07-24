@@ -353,6 +353,8 @@ window.addEventListener('resize', ()=>{
     s.x = Math.random() * W;
     s.y = Math.random() * H;
   }
+  clearTimeout(resizeTimer);
+  resizeTimer=setTimeout(repositionTiles,80);
 });
 
 animateParticles();
@@ -444,6 +446,24 @@ function removeTileEl(id){
   if(!el) return;
   el.remove();
   tileDomMap.delete(id);
+}
+// ---- Reposition tiles on resize ----
+let resizeTimer;
+function repositionTiles(){
+  const layout=getTileLayout();
+  for(let r=0;r<SIZE;r++)for(let c=0;c<SIZE;c++){
+    const t=grid[r][c];
+    if(t&&t!==0){
+      const el=tileDomMap.get(t.id);
+      if(el){
+        el.style.width=layout.tileSize+'px';
+        el.style.height=layout.tileSize+'px';
+        const p=layout.toPx(r,c);
+        el.style.left=p.left+'px';
+        el.style.top=p.top+'px';
+      }
+    }
+  }
 }
 
 // Rotate grid 90-deg clockwise
