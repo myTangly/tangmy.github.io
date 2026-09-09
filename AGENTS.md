@@ -6,4 +6,4 @@
 
 编辑 index.html 和 styles.css；作品预览必须是真实页面截图。新增作品在 project-grid 增加 article。测试 1440/768/390px、键盘、触屏、缩放和减少动态。不得用生成图冒充截图。
 
-当前 design/glass-home 为待用户确认的预览分支，确认前不得覆盖 master。旧版完整保存于同级 homepage-recovery 与独立 game-2048；不得删除。最高分不跨域自动迁移。
+用户已确认视觉版本并授权提交替换主站。master 为发布分支。旧版完整保存于同级 homepage-recovery 与独立 game-2048；不得删除。最高分不跨域自动迁移。后续改版仍须按用户授权发布。
