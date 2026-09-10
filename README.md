@@ -7,8 +7,8 @@
 ## 访问网站
 
 - [个人主页](https://tangmy.top/)
-- [2048 互动实验](https://2048.tangmy.top/)：粒子光影中的数字方块游戏。
-- [AI 微电影教材](https://book.tangmy.top/)：从创意到制作的学习记录与教材。
+- [2048 互动实验](https://2048.tangmy.top/)：闲着没事让AI乱搓的2048数字方块游戏。
+- [AI 微电影教材](https://book.tangmy.top/)：全程AI自己没看过的从创意到制作的学习记录与教材。
 
 ## 关于本站
 
