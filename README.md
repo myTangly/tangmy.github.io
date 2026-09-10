@@ -9,6 +9,7 @@
 - [个人主页](https://tangmy.top/)
 - [2048 互动实验](https://2048.tangmy.top/)：闲着没事让AI乱搓的2048数字方块游戏。
 - [AI 微电影教材](https://book.tangmy.top/)：全程AI自己没看过的从创意到制作的学习记录与教材。
+- [Linux 联合教程](https://linux.tangmy.top/)：面向新手的 Linux、WSL 2、Ubuntu、Docker Desktop 与 Codex 联合学习路线。
 
 ## 关于本站
 
